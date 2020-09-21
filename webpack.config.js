@@ -9,7 +9,11 @@ module.exports = {
     filename: 'index_bundle.js',
   },
   devServer: {
-    contentBase: './build',
+    contentBase: path.resolve(__dirname, 'public'),
+    compress: true,
+    port: 3000,
+    hot: true,
+    publicPath: '/',
   },
   devtool: 'inline-source-map',
   module: {
