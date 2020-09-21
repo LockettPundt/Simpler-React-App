@@ -13,4 +13,4 @@ git clone https://github.com/LockettPundt/Simpler-React-App.git
 yarn && yarn start
 ```
 
-Eventuall I'd like to install it via npx and it have a similar start up as CRA.
+Eventually I'd like to install it via npx and it have a similar start up as CRA.
